@@ -1,8 +1,8 @@
-from Tkinter import *
+from tkinter import *
 from ctypes import *                                                                                                            
 import sys
-import tkFileDialog
-from tkFileDialog import askopenfilename 
+import tkinter.filedialog
+from tkinter.filedialog import askopenfilename 
 
 PAGE_READWRITE     =     0x04
 KERNEL32 = windll.kernel32                                                
